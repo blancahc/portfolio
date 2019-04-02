@@ -61,7 +61,22 @@ nav ul li a{
   color: #fff;
   text-decoration: none;
 }
-/*----------------------- Responsive Header ------------------------------ */
+
+/*----------------------- About Me ------------------------------------- */
+
+.myPic img{
+  display: block;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+p{
+  max-width: 1150px;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/*----------------------- Media Queries--------------------------------- */
 @media screen and (max-width: 1199px){
   .header-wrapper{
     width: 960px;
