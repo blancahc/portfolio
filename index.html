@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Blanca Hernandez portfolio, developer">
     <meta name="robots" content="index, follow">
-    <title>Blanca Hernandez' Software Developer Portfolio</title>
+    <title>Blanca Hernandez' Software Engineer Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 <body>
   <header role="banner">
    <div class="header-wrapper">
       <div class = "logo-wrapper">
-        <a href="#" class="logo"><img src="logo.png" alt="Blanca Hernandez"/></a>
+        <a href="#" class="logo"><img src="images/logo.png" alt="Blanca Hernandez"/></a>
         <div class="mobile-toggle">
             <span></span>
             <span></span>
@@ -25,22 +25,71 @@
         <nav>
           <ul>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Email</a></li>
+            <li><a href="https://github.com/blancahc" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/hernandezblanca" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:blamca1029@gmail.com">Email</a></li>
           </ul>
         </nav>
       </div>
    </div>
   </header>
    <!-- *****************************************Landing Page/About Me********************************************       -->
-     <main  role="main">
-       <div class="myPic">
-          <img src="mypicture.PNG" alt="My picture"/>
-       </div>
-      <p>I am a Software Developer located in San Jose, California. I love technology, soccer, and spending time with my family. In my previous life in Human Resources I managed team projects, administered systems, faciliated presentations, and worked closely with various people in different departments and levels. I'm looking forward to apply this experience and my skills and passion in Software Development to help solve problems!
-      </p>
+  <main  role="main">
+    <div class="myPic">
+      <img src="images/my-picture.PNG" alt="My picture"/>
+    </div>
+     <p class="bio">I am a Software Engineer located in San Jose, California. I love learning, soccer, and spending time with my family. In my previous life in Human Resources I managed team-projects, administered systems, facilitated presentations, and worked closely with various people at all levels. I'm looking forward to apply this experience and my skills and passion in software development to help solve problems!
+    </p>
+  </main>
+  <!-- *****************************************Projects********************************************       -->
+  <main role="main">
+    <div class="project-content">
+      <img class="project-image" src="images/satisfy-ur-craving-app.PNG" alt="Satisfy Your Craving Application"/>
+      <h2>Satisfy Your Craving</h2>
+      <div class="techs-used">
+        <ul>
+          <li><img src="images/html-ccs-js-icon.png" /></li>
+        </ul>
       </div>
+      <p>Satisfy Your Craving is designed for travelers, foodies, and cooking enthusiasts alike. It allows a user to search for the food they are craving and get a list of video recipes, written recipes, and a list of restaurants.</p> 
+      <div class="view-options">
+        <a href="https://github.com/blancahc/Satisfy-Ur-Craving" target="_blank">See Code</a>
+        <a href="https://blancahc.github.io/Satisfy-Ur-Craving/" target="_blank">View Live</a> 
+    </div>
+  </div>
+  <div class="project-content">
+    <img src="images/budgeting-app.png" alt="Budgeting Application"/>
+    <h2>Budgeting App</h2>
+    <div class="techs-used">
+        <ul>
+          <li><img src="images/html-ccs-js-icon.png"/></li>
+          <li><img src="images/node.js-icon.png"/></li>
+          <li><img src="images/mongodb-icon.png"/></li>
+        </ul>
+      </div> 
+    <p>Budgeting App allows the user to create their own spending categories and subcategories for their budget each month and track expenses.</p>  
+    <div class="view-options">
+      <a href="https://github.com/blancahc/budgeting-app-node-capstone" target="_blank">See Code</a>
+      <a href="https://budgeting-app-node-capstone.herokuapp.com/" target="_blank">View Live</a> 
+    </div>
+  </div>
+  <div class="project-content">
+    <img class="project-image" src="images/recipe-book-app.png" alt="Recipe Book Application"/>
+    <h2>Recipe Book</h2>
+    <div class="techs-used">
+      <ul>
+        <li><img src="images/html-ccs-js-icon.png" alt="html css javascript icon"/></li>
+        <li><img src="images/node.js-icon.png" alt="node.js icon"/></li>
+        <li><img src="images/mongodb-icon.png" alt="mongo db icon"/></li>
+        <li><img src="images/React.js-logo.png"alt="react.js icon"/></li>
+      </ul>
+    </div>
+    <p>Recipe Book is an application where someone can search for, create his/her own recipes and save them like in a recipe book</p>
+    <div class="view-options">
+      <a href="https://github.com/blancahc/recipe-book-fullstack-capstone" target="_blank">See Code</a>
+      <a href="https://recipe-book-capstone.herokuapp.com/" target="_blank">View Live</a> 
+    </div>
+  </div>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>

@@ -1,7 +1,6 @@
 
 body{
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 *{
   margin: 0; 
@@ -13,10 +12,10 @@ body{
 header{
   background: #000;
   color:#fff;
+  width: 100%;
 }
 .header-wrapper{
-  width: 1180px;
-  margin: 0 auto;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,26 +62,63 @@ nav ul li a{
 }
 
 /*----------------------- About Me ------------------------------------- */
-
 .myPic img{
   display: block;
-  border-radius: 50%;
-  margin: 30px auto;
+  border-radius: 1px 100px 1px;
+  margin: 20px auto;
 }
-p{
-  max-width: 1150px;
-  margin: 30px auto;
+.bio{
   font-size: 20px;
   padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+/*----------------------- Projects ------------------------------------- */
+.project-content{
+  border: 2px solid #e9e8e8;
+  max-width: 1400px;
+  margin: 0 auto 30px;
+  padding: 40px;
+  align-items: center;
+  font-size: 16px;
+  color: #0f4e48;
+}
+.project-content img{
+  display: block;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.project-content h2{
+  padding-top: 30px;
+}
+.techs-used ul li{
+  display: inline-block;
+  padding: 5px;
+}
+.techs-used ul li img{
+  width: 40px;
+  height: auto;
+  border: none;
+}
+.view-options{
+  display: block;
+  margin: 10px auto;
+}
+.view-options a{
+  display: inline-block;
+  color: #fff;
+  padding: 7px;
+  margin-right: 5px;
+  background-color: #0f4e48;
+  text-decoration: none;
+  width: 150px;
+  text-align-last: center;
 }
 
+.view-options a:hover{
+  background-color: #468d86;
+}
 /*----------------------- Media Queries--------------------------------- */
-@media screen and (max-width: 1190px){
-  .header-wrapper{
-    width: 750px;
-  }
-}
-
 @media screen and (max-width: 750px){
   .header-wrapper{
     width: auto;
@@ -106,12 +142,9 @@ p{
     max-width: 180px; 
   }
   .myPic img{
-    display: block;
-    border-radius: 50%;
-    margin: 30px auto;
     max-width: 350px;
   }
-  p{
+  bio{
     max-width: 1150px;
     margin: 30px auto;
     font-size: 14px;
