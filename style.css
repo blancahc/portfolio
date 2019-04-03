@@ -1,6 +1,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color:#ebe9e9;
 }
 *{
   margin: 0; 
@@ -76,16 +77,16 @@ nav ul li a{
 .project-content{
   border: 2px solid #e9e8e8;
   max-width: 1400px;
-  margin: 0 auto 30px;
-  padding: 40px;
+  margin: 0 auto 60px;
   align-items: center;
-  font-size: 16px;
+  font-size: 18px;
   color: #0f4e48;
 }
 .project-content img{
   display: block;
   width: 95%;
   margin: 20px auto;
+  border: solid #808080 2px;
 }
 .project-content h2{
   padding-top: 30px;
@@ -113,7 +114,6 @@ nav ul li a{
   width: 150px;
   text-align: center;
 }
-
 .view-options a:hover{
   background-color: #468d86;
 }
