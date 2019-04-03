@@ -15,7 +15,7 @@ header{
   width: 100%;
 }
 .header-wrapper{
-  max-width: 1400px;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,6 @@ header{
   display: block;
   padding: 10px 15px;
 }
-
 .logo img {
   display: block;
   max-height: 50px;
@@ -68,9 +67,9 @@ nav ul li a{
   margin: 20px auto;
 }
 .bio{
-  font-size: 20px;
+  font-size: 25px;
   padding: 20px;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;
 }
 /*----------------------- Projects ------------------------------------- */
@@ -85,7 +84,7 @@ nav ul li a{
 }
 .project-content img{
   display: block;
-  max-width: 1000px;
+  width: 95%;
   margin: 20px auto;
 }
 .project-content h2{
@@ -112,7 +111,7 @@ nav ul li a{
   background-color: #0f4e48;
   text-decoration: none;
   width: 150px;
-  text-align-last: center;
+  text-align: center;
 }
 
 .view-options a:hover{
@@ -172,11 +171,33 @@ nav ul li a{
      margin: 30px auto;
     max-width: 300px;
   }
-  p{
+  .bio{
     max-width: 1150px;
     margin: 30px auto;
     font-size: 14px;
     padding: 15px;
   }
-  
+  .project-content{
+    margin: 0 auto 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .project-content h2{
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .project-content img{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+  }
+  .techs-used ul li img{
+    width: 25px;
+  }
+  .view-options a{
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 150px;
+  }
 }
