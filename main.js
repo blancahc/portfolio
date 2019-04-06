@@ -1,27 +1,33 @@
 'use strict';
 
 //Define functions
-  //When the user clicks on mobile navigation
-  function createMobileNav() {
-  $('.mobile-toggle').click(function(){
-    $('.navigation').slideToggle();
-  });
-  }
-
 //when the page loads...
-$(document).ready(function () {
-  createMobileNav();
-  $('#projects').hide();
+
+// $('#view-bio').click((e) => {
+//   e.preventDefault();
+//   $('body,html').animate({
+//     scrollTop: 0
+//   }, 2000);
+//   return false;
+// });
+
+$('#view-about-me').click((e) => {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("#about-me").offset().top
+  }, 2000);
 });
 
-//When the user clicks on project
-$('#view-projects').on('click', function () {
-  $('main').hide();
-  $('#projects').show();
+$('#view-projects').click((e) => {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("#projects").offset().top
+  }, 2000);
 });
 
-//When the user clicks on 'Blanca Hernandez' it takes them back to the landing page
-$('#blanca').on('click', function () {
-  $('main').hide();
-  $('#landing-page').show();
+$('#view-contact').click((e) => {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("#contact").offset().top
+  }, 2001);
 });
